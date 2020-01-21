@@ -2,14 +2,14 @@
 
 * [Introduction](#introduction)
 * [Requirements](#requirements)
-* [How to use](#example-use-cases)
+* [How to use](#how-to-use)
    * [Cifar10](#cifar10)
    * [Cifar100](#cifar100)
 * [Resources](#resources)
    * [Data](#data)
    * [Hardware](#hardware)
 * [Full documentation](#full-documentation)
-* [References](#references)
+* [Reference](#reference)
 * [License](#license)
 
 ## Introduction
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ## How to use
 
 
-### Cifar10:
+### Cifar10
 ```
 python train.py --device=-1 --config='configs/cifar10_KWNG.yml' 
 ```
@@ -55,7 +55,7 @@ python train.py --device=-1 --config='configs/cifar100_KWNG.yml'
 
 
 
-## Ressources
+## Resources
 
 ### Data
 
