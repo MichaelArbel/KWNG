@@ -1,0 +1,41 @@
+seed: 0
+log_name: 'cifar100'
+
+dataset: 'cifar100'
+
+network: 'ResNet18IllCond'
+#network: 'ResNet18'
+
+opt_scheme: 'KNWG'
+num_basis: 5
+with_diag_mat : 1
+epsilon: 0.00001
+log_bandwidth: 0.0
+grad_clip: True
+kernel: 'gaussian'
+
+
+# dumping
+dumping_freq : 5
+max_red: 0.75
+min_red: 0.25
+reduction_coeff : 0.85
+
+optimizer: 'sgd'
+use_scheduler: True
+scheduler : 'MultiStepLR'
+milestone : '100,200,300'
+lr_decay : 0.1
+lr: 1.
+clip_grad : True
+b_size: 128
+
+
+
+#python train.py --device=2 --config='configs/cifar100_KWNG.yml' 
+
+
+
+
+
+
