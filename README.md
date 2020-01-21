@@ -26,7 +26,7 @@ This a Pytorch implementation which requires the follwoing packages:
 python==3.6.2 or newer
 torch==1.2.0 or newer
 torchvision==0.4.0 or newer
-numpy==  or newer
+numpy==1.17.2  or newer
 ```
 
 All dependencies can be installed using:
@@ -59,7 +59,7 @@ python train.py --device=-1 --config='configs/cifar100_KWNG.yml'
 
 ### Data
 
-To be able to reproduce the results of the paper on Cifar10 and Cifar100 using the prodivided scripts, both datasets needs to be downloaded. This is automatically done by the script. By default a directory named 'data' containing both datasets is created in the main directory. 
+To be able to reproduce the results of the paper on Cifar10 and Cifar100 using the prodivided scripts, both datasets need to be downloaded. This is automatically done by the script. By default a directory named 'data' containing both datasets is created in the working directory. 
 
 
 ### Hardware
@@ -122,7 +122,7 @@ To use CPU set —device=-2
 
 ```
 
-## References
+## Reference
 
 If using this code for research purposes, please cite:
 
@@ -139,6 +139,6 @@ If using this code for research purposes, please cite:
 ```
 
 
-## License
+## License 
 
 This code is under a BSD license.
