@@ -38,6 +38,8 @@ class Trainer(object):
 		self.writer = SummaryWriter(self.log_dir)
 
 		print('Loading data')
+		if not os.path.isdir(args.data_dir):
+			os.makedirs(args.data_dir, exist_ok=True)
 		self.data_loaders = get_data_loader(args)
 		self.total_epochs = self.args.total_epochs
 		print('==> Building model..')
