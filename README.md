@@ -20,7 +20,7 @@ This repository contains an implementation of the Kernelized Wasserstein Natural
 ## Requirements
 
 
-This a Pytorch implementation which requires the follwoing packages:
+This a Pytorch implementation which requires the following packages:
 
 ```
 python==3.6.2 or newer
